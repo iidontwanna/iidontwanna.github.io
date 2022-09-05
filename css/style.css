@@ -17,12 +17,27 @@ body,
 }
 
 body {
-	background-color: #FCF4ED;
+	background-color: white;
 }
 
 .btn {
 	border-radius: 0;
 }
+
+.btn2 {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  border: 2px solid black;
+}
+
+.btn2:hover {opacity: 0.6}
 
 a:link,
 a:hover,
