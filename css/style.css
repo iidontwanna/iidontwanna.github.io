@@ -39,7 +39,7 @@ body {
 }
 
 .btn2:hover {
-	background-color: #000000
+	background-color: #000000;
   color: #FFFFFF;
 }
 
@@ -395,7 +395,6 @@ p {
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 70%;
 }
 
 .background-1 {
