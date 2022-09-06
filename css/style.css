@@ -44,9 +44,9 @@ body {
 }
 
 .resume {
-float: center;
 	padding-top: 10%;
-	padding-left: 5%;
+	margin: auto;
+width: 60%;
 }
 
 .showreal{
