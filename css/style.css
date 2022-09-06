@@ -82,8 +82,8 @@ float: left;
    .wrapper2 {
       height: auto; overflow: hidden; // clearing 
    }
-  #one { width: 300px; float: right; }
-   #two { margin-right: 200px; }
+  #one { width: 500px; float: right; }
+   #two { margin-right: 500px; }
 }
 
 
