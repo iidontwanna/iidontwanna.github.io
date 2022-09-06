@@ -52,9 +52,9 @@ float: left;
 
 .showreal{
 	display: inline-block;
-	text-align:center;
 	padding-top: 100px;
 	padding-left: 20px;
+	width: 70%
 }
 	
 }
