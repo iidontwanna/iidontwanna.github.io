@@ -73,9 +73,9 @@ float: left;
    padding: 10px;
 }
 #one {
-	display: flex;
-	align-items: center; 
-	padding: 10px 40px;
+  display: flex;
+  align-items: center; 
+  padding-top: 5%;
   background-color: gray;
   float:right; 
   margin-left:20px;
@@ -85,6 +85,9 @@ float: left;
   
 }
 #two { 
+	display: flex;
+  align-items: center; 
+  padding-top: 5%;
   background-color: white;
   overflow:hidden;
   margin:2%;
