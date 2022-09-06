@@ -73,8 +73,7 @@ float: left;
    padding: 10px;
 }
 #one {
-  display: flex;
-  align-items: center; 
+
   padding-top: 5%;
   float:right; 
   margin-left:20px;
@@ -84,8 +83,7 @@ float: left;
   
 }
 #two { 
-	display: flex;
-  align-items: center; 
+	
   padding-top: 5%;
   overflow:hidden;
   margin:2%;
