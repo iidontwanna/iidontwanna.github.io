@@ -17,7 +17,7 @@ body,
 }
 
 body {
-	background-color: #FFFAF1;
+	background-color: #EEE2CD;
 }
 
 .btn {
@@ -25,7 +25,7 @@ body {
 }
 
 .btn2 {
-  background-color: #FFFAF1;
+  background-color: #EEE2CD;
   border: none;
   color: #000000;
   padding: 16px 32px;
@@ -40,7 +40,7 @@ body {
 
 .btn2:hover {
 	background-color: #000000;
-  color: #FFFAF1;
+  color: #EEE2CD;
 }
 
 .resume {
