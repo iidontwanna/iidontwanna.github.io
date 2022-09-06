@@ -46,6 +46,8 @@ body {
 .resume {
 display: inline-block;
 float: left;
+	padding-top: 100px;
+	padding-left: 20px;
 }
 
 .div2{
