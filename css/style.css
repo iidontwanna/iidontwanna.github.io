@@ -88,8 +88,27 @@ float: center;
   min-height:170px;
 }
 
+#three {
+
+  padding-top: 5%;
+  float:right; 
+  margin-left:20px;
+  margin:2%;
+  width:50%;
+	
+  
+}
+
 @media screen and (max-width: 600px) {
    #one { 
+    float: none;
+    margin-right:0;
+    width:auto;  
+  }
+}
+
+@media screen and (max-width: 600px) {
+   #three { 
     float: none;
     margin-right:0;
     width:auto;  
