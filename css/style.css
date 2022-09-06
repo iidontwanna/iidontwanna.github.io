@@ -45,7 +45,7 @@ body {
 
 .resume {
 display: inline-block;
-float: left;
+float: center;
 	padding-top: 10%;
 	padding-left: 5%;
 }
