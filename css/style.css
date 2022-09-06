@@ -43,6 +43,15 @@ body {
   color: #FFFFFF;
 }
 
+.resume {
+text-align:left; 
+padding-top:100px; 
+height:700px; 
+width:200px; 
+margin-right: 2cm; 
+margin-top: -19cm; 
+margin-left: auto;
+}
 
 a:link,
 a:hover,
@@ -258,6 +267,12 @@ p {
 	top: -0.5em;
 }
 
+@media screen (min-width: 990px) {
+  
+            .resume,
+                width: 70%;
+            }
+	
 @media (min-width: 990px) {
 	.navbar-brand {
 		position: absolute;
