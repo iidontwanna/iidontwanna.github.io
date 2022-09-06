@@ -46,14 +46,14 @@ body {
 .resume {
 display: inline-block;
 float: left;
-	padding-top: 100px;
-	padding-left: 20px;
+	padding-top: 10%;
+	padding-left: 5%;
 }
 
 .showreal{
 	display: inline-block;
-	padding-top: 100px;
-	padding-left: 70px;
+	padding-top: 10%;
+	padding-left: 5%;
 	width: 70%
 }
 	
@@ -63,10 +63,39 @@ float: left;
 	
 }
 
+.wrapper2 { 
+  border : 2px solid #000; 
+  overflow:hidden;
+}
 
-.vimeo{
-	padding:20px;
-	
+.wrapper2 div {
+   min-height: 200px;
+   padding: 10px;
+}
+
+#one {
+  background-color: gray;
+  float:left; 
+  margin-right:20px;
+  width:140px;
+  border-right:2px solid #000;
+}
+#two { 
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+  border:2px dashed #ccc;
+  min-height:170px;
+}
+
+@media screen and (max-width: 400px) {
+   #one { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
 }
 
 
@@ -286,8 +315,7 @@ p {
 }
 
 @media screen (min-width: 990px) {
-  
-            .resume,
+  		.resume,
                 width: 70%;
             }
 	
