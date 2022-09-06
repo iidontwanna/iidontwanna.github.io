@@ -73,11 +73,15 @@ float: left;
    padding: 10px;
 }
 #one {
+	display: flex;
+	align-items: center; 
+	padding: 10px 40px;
   background-color: gray;
   float:right; 
   margin-left:20px;
   margin:2%;
   width:30%;
+	
   
 }
 #two { 
