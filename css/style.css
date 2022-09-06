@@ -46,7 +46,12 @@ body {
 .resume {
 display: inline-block;
 float: left;
-	padding-top: 100px;
+}
+
+.div2{
+display: inline-block;
+float: left;	
+padding-top: 100px;
 }
 
 a:link,
