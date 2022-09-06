@@ -50,10 +50,20 @@ float: left;
 	padding-left: 20px;
 }
 
-.div2{
-display: inline-block;
-padding-top: 100px;
+.showreal{
+	display: inline-block;
+	text-align:center;
+	padding-top: 100px;
+	padding-left: 20px;
 }
+	
+}
+.showrealheader{
+	text-align:left;
+	
+}
+
+
 
 a:link,
 a:hover,
