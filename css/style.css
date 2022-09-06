@@ -64,38 +64,26 @@ float: left;
 }
 
 .wrapper2 { 
-  border : 2px solid #000; 
-  overflow:hidden;
+  border : 2px dotted #ccc; padding: 2px; 
 }
 
 .wrapper2 div {
+   width: 100%; 
    min-height: 200px;
-   padding: 10px;
+   padding: 50px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
+#one { background-color: gray; }
+#two { background-color: white; }
 
-#one {
-  background-color: gray;
-  float:left; 
-  margin-right:20px;
-  width:140px;
-  border-right:2px solid #000;
-}
-#two { 
-  background-color: white;
-  overflow:hidden;
-  margin:10px;
-  border:2px dashed #ccc;
-  min-height:170px;
-}
-
-@media screen and (max-width: 400px) {
-   #one { 
-    float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000;    
-  }
+@media screen and (min-width: 600px) {
+   .wrapper2 {
+      height: auto; overflow: hidden; // clearing 
+   }
+   #one { width: 200px; float: left; }
+   #two { margin-left: 200px; }
 }
 
 
