@@ -139,6 +139,12 @@ background-image: url("../img/DeepBlue.gif");
   margin:2%;
   min-height:170px;
 }
+.col-md-6point5 {
+	width: 55.75%
+}
+.col-md-5point5{
+	width: 45.25%;
+}
 
 .leftside, .rightside{
 
