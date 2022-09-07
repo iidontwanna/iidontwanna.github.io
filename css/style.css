@@ -290,10 +290,6 @@ p {
 	color: #555;
 }
 
-.navbar-dark-home .navbar-nav-home .nav-link-home:focus,
-.navbar-dark-home .navbar-nav-home .nav-link-home:hover {
-	color: #EEE2CD;
-}
 
 .navbar a:link,
 .navbar a:hover,
