@@ -124,16 +124,14 @@ width:45%;
   
 }
 
-#four {
-
-  padding-top: 10%;
-  float:right; 
-  margin-left:20px;
-  margin:2%;
-  width:30%;
+#four { 
 	
-  
+  padding-top: 10%;
+  overflow:hidden;
+  margin:2%;
+  min-height:170px;
 }
+
 
 @media screen and (max-width: 600px) {
    #one { 
