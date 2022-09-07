@@ -20,6 +20,7 @@ body {
 	background-color: #EEE2CD;
 }
 
+
 .btn {
 	border-radius: 0;
 }
@@ -77,9 +78,9 @@ width:45%;
   justify-content: left;
 }
 
-.image-container-center {
+.container-center {
   display: flex;
-  justify-content: right;
+  justify-content: center;
 }
 
 .text-container {
@@ -132,6 +133,25 @@ width:45%;
   min-height:170px;
 }
 
+#five {
+
+  padding-top: 5%;
+  float:right; 
+  margin-left:20px;
+  margin:2%;
+  width:50%;
+	
+  
+}
+
+#six { 
+	
+  padding-top: 5%;
+  overflow:hidden;
+  margin:2%;
+  min-height:170px;
+}
+
 
 @media screen and (max-width: 600px) {
    #one { 
@@ -143,6 +163,15 @@ width:45%;
 
 @media screen and (max-width: 600px) {
    #three { 
+    float: none;
+    margin-right:0;
+    width:auto;  
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+   #five { 
     float: none;
     margin-right:0;
     width:auto;  
