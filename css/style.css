@@ -76,7 +76,12 @@ width:60%;
   justify-content: left;
 }
 
-text-container {
+.image-container-center {
+  display: flex;
+  justify-content: right;
+}
+
+.text-container {
   display: flex;
   justify-content: right;
 }
