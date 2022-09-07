@@ -183,7 +183,17 @@ background-image: url("../img/DeepBlue.gif");
   }
 }
 
+@media screen and (max-width: 768px) {
+ .col-md-6point5 {
+	width: 52%
+}
+}
 
+@media screen and (max-width: 768px) {
+ .col-md-5point5{
+	width: 48%;
+}
+}
 
 a:link,
 a:hover,
