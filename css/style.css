@@ -4,6 +4,8 @@
 
 /* Basic */
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 * {
 	margin: 0;
 	padding: 0;
@@ -138,24 +140,15 @@ background-image: url("../img/DeepBlue.gif");
   min-height:170px;
 }
 
-#five {
+.leftside, .rightside{
 
-  padding-top: 5%;
-  float:right; 
-  margin-left:20px;
-  margin:2%;
-  width:50%;
-	
-  
+	height: 100vh;
+	width:100%;
 }
 
-#six { 
-  padding-top: 5%;
-  overflow:hidden;
-  margin:2%;
-  min-height:170px;
+.leftside{
+	background-image: url("../img/DeepBlue.gif");
 }
-
 
 @media screen and (max-width: 600px) {
    #one { 
@@ -173,14 +166,6 @@ background-image: url("../img/DeepBlue.gif");
   }
 }
 
-
-@media screen and (max-width: 600px) {
-   #five { 
-    float: none;
-    margin-right:0;
-    width:auto;  
-  }
-}
 
 
 
