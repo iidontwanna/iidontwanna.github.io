@@ -148,6 +148,11 @@ background-image: url("../img/DeepBlue.gif");
 
 .leftside{
 	background-image: url("../img/DeepBlue.gif");
+	no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 @media screen and (max-width: 600px) {
