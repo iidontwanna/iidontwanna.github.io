@@ -71,6 +71,11 @@ width: 60%;
   justify-content: left;
 }
 
+.image-container-resume {
+  display: flex;
+  justify-content: center;
+}
+
 text-container {
   display: flex;
   justify-content: right;
