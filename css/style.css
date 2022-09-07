@@ -213,7 +213,7 @@ background-image: url("../img/DeepBlue.gif");
 }
 }
 */
-.email a:hover{
+a.email:hover{
 	text-decoration: none;
 	color: #555;
 }
