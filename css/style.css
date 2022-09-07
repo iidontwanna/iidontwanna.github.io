@@ -213,11 +213,14 @@ background-image: url("../img/DeepBlue.gif");
 }
 }
 */
+a:hover{
+	text-decoration: none;
+	color: #555;
+}
 a:link,
-a:hover,
 a:visited {
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
 
 a:link.white,
