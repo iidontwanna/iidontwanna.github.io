@@ -142,7 +142,7 @@ background-image: url("../img/DeepBlue.gif");
 
 .leftside, .rightside{
 
-	height: 50vh;
+	height:100vh;
 	width:100%;
 }
 
@@ -173,7 +173,7 @@ background-image: url("../img/DeepBlue.gif");
 
 @media screen and (max-width: 600px) {
   .leftside, .rightside { 
-   height:100vh;
+   height:50vh;
   }
 }
 
