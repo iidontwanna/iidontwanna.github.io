@@ -62,6 +62,10 @@ width: 60%;
 	
 }
 
+#left {    
+ text-align: left;  
+ }  
+
 .wrapper2 { 
   overflow:hidden;
 }
