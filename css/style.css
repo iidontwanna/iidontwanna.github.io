@@ -66,6 +66,16 @@ width: 60%;
  text-align: left;  
  }  
 
+.image-container {
+  display: flex;
+  justify-content: left;
+}
+
+text-container {
+  display: flex;
+  justify-content: right;
+}
+
 .wrapper2 { 
   overflow:hidden;
 }
