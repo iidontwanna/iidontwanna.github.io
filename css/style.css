@@ -97,12 +97,16 @@ width:45%;
 }
 
 #containerhome {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   position: relative;
 }
 
+.aboutmetext{
+	margin: 5px auto;
+}
+
+.aboutmebutton{
+	margin: 5px auto;
+}
 
 .wrapper2 { 
   overflow:hidden;
