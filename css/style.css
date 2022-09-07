@@ -171,12 +171,6 @@ background-image: url("../img/DeepBlue.gif");
   }
 }
 
-@media screen and (max-width: 600px) {
-  .leftside, .rightside { 
-   height:50vh;
-  }
-}
-
 
 
 a:link,
