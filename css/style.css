@@ -105,7 +105,7 @@ width:45%;
 	margin: 5px auto;
 	padding-left: 15%;
 	padding-right: 15%;
-	padding-top: 10px;
+	padding-top: 5%;
 }
 
 .wrapper2 { 
@@ -213,11 +213,12 @@ background-image: url("../img/DeepBlue.gif");
 }
 }
 */
-a:hover{
+.email a:hover{
 	text-decoration: none;
 	color: #555;
 }
 a:link,
+a:hover,
 a:visited {
 	text-decoration: none;
 	color: #000;
