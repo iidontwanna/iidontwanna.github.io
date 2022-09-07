@@ -90,6 +90,14 @@ width:45%;
   justify-content: right;
 }
 
+#containerhome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .wrapper2 { 
   overflow:hidden;
 }
