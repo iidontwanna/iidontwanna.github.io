@@ -92,6 +92,11 @@ width:45%;
   overflow:hidden;
 }
 
+.wrapper3 { 
+  overflow:hidden;
+background-image: url("../img/DeepBlue.gif");	
+}
+
 .wrapper2 div {
    min-height: 200px;
    padding: 10px 1px;
@@ -145,7 +150,6 @@ width:45%;
 }
 
 #six { 
-  background-image: url("../img/DeepBlue.gif");	
   padding-top: 5%;
   overflow:hidden;
   margin:2%;
