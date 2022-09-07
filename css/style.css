@@ -50,6 +50,10 @@ body {
 	
 }
 
+resume-size{
+width:60%;
+}
+
 .showreal{
 	display: inline-block;
 	padding-top: 10%;
