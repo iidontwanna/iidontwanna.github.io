@@ -45,8 +45,9 @@ body {
 
 .resume {
 	padding-top: 10%;
-	margin: auto;
-width: 60%;
+	 display: flex;
+  justify-content: center;
+	
 }
 
 .showreal{
@@ -69,11 +70,6 @@ width: 60%;
 .image-container {
   display: flex;
   justify-content: left;
-}
-
-.image-container-resume {
-  display: flex;
-  justify-content: center;
 }
 
 text-container {
